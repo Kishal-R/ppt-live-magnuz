@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #07001b;
+      /* Background color for the page */
+    }
+
+    .centered-img {
+      position: relative;
+      top: 250px;
+      left: -175px;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      opacity: 0.07;
+      width: 500px;
+      /* Set width */
+      height: 500px;
+      /* Set height */
+      border-radius: 20px;
+
+    }
+
+    .container {
+      position: relative;
+      top: -100px;
+      left: 300px;
+      z-index: 9999;
+      opacity: 1;
+      width: 850px;
+      /* Set width */
+      height: 500px;
+      /* Set height */
+      color: aliceblue;
+      font-weight: bold;
+      font-size: x-large;
+      animation: transitionIn 1.4s;
+    }
+
+    .container h1 {
+      left: 290px;
+    }
+
+    .button1 {
+      position: fixed;
+      right: 20px;
+      bottom: 30px;
+      background: rgba(0, 12, 124, 0.616);
+      color: rgb(0, 0, 0);
+      width: 95px;
+      height: 39px;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      margin-left: 2px;
+
+    }
+
+    .button2 {
+      position: fixed;
+      left: 20px;
+      bottom: 30px;
+      background: rgba(0, 12, 124, 0.616);
+      color: rgb(209, 209, 209);
+      width: 132px;
+      height: 39px;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+    }
+
+    .button1 a {
+      position: fixed;
+      right: 31px;
+      bottom: 38px;
+      color: rgb(222, 222, 222);
+      font-size: large;
+      font-weight: bolder;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .button2 a {
+      position: fixed;
+      left: 26px;
+      bottom: 38px;
+      color: rgb(222, 222, 222);
+      font-size: large;
+      font-weight: bolder;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    button:hover {
+      background-color: aliceblue;
+      transition: all 200ms;
+      cursor: pointer;
+    }
+
+    .button1 a:hover,
+    .button2 :hover {
+      color: #07001b;
+    }
+
+    @keyframes transitionIn {
+      from {
+        opacity: 0;
+        transform: rotateX(-20deg);
+      }
+
+      to {
+        opacity: 1;
+        transform: rotateX(10);
+      }
+    }
+
+
+
+    .List {
+      font-size: xx-large;
+      font-weight: bolder;
+
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Image with class "centered-img" -->
+  <div class="container">
+    <h1>
+      REMOVING DEFAULT PAGE</h1>
+  
+      <BR>
+      <BR>
+  <ul>
+    <h4 style="color: grey; top: -100;">#remove all the files in default directory</h4>
+    <li style="font-size: xx-large;">/var/www/html$ rm -rf *</li>
+    <BR>
+    <BR>
+     
+    <BR>
+    <BR>
+  </ul>
+       
+  </div>
+
+
+  </div>
+  <img src="Frame 56.png" alt="Centered Image" class="centered-img"></img>
+
+  <button class="button1">
+    <A href="page22c.html">NEXT >></A></button>
+
+  <button class="button2">
+    <A href="page22a.html">
+      << PREVIOUS</A></button>
+
+</body>
+
+</html>
